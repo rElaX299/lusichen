@@ -1,3 +1,12 @@
-build
 .idea
-bin
+.vscode
+
+bin/*
+!bin/.empty
+
+build/*
+!build/.empty
+
+cmake-build-debug
+cmake-build-debug-wsl
+lib/
