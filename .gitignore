@@ -7,8 +7,7 @@ bin/*
 build/*
 !build/.empty
 
-cmake-build-debug
-cmake-build-debug-wsl
+cmake-build-debug*
 
 lib/*
 !lib/.empty
