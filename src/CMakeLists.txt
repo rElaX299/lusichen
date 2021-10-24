@@ -5,7 +5,7 @@ add_library(HELLO SHARED hello.c)
 target_include_directories(HELLO PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
 # 指定可执行文件输出
-add_executable(main.app gtest.c)
+add_executable(main.app main.c)
 
 # 指定头文件目录
 target_include_directories(main.app PUBLIC ${CMAKE_SOURCE_DIR}/include)
